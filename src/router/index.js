@@ -6,21 +6,21 @@ const routes = [
     path: '/',
     component: () => import('@/views/HomeView.vue'),
     meta: {
-      title: '番茄鐘 | 首頁'
+      title: '橘子鐘 | 首頁'
     }
   },
   {
     path: '/list',
     component: () => import('@/views/ListView.vue'),
     meta: {
-      title: '番茄鐘 | 事項'
+      title: '橘子鐘 | 事項'
     }
   },
   {
     path: '/settings',
     component: () => import('@/views/SettingsView.vue'),
     meta: {
-      title: '番茄鐘 | 設定'
+      title: '橘子鐘 | 設定'
     }
   }
 ]
