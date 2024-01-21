@@ -69,8 +69,33 @@
   <div id="particles-js"></div>
   <div id="app"></div>
   <script type="module" src="/src/main.js"></script>
-  <script src="./particles.min.js"></script>
-  <script src="./app.js"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS('particles-js',
+        {
+          "particles": {
+            "number": {
+              "value": 5,
+              "density": {
+                "enable": true,
+                "value_area": 800
+              }
+            },
+            "color": {
+              "value": "#000"
+            },
+          },
+          "interactivity": {
+            "events": {
+              "onhover": {
+                "enable": true,
+                "mode": "repulse"
+              }
+            },
+          }
+        }
+      );
+  </script>
 </body> 
 
 </html>
